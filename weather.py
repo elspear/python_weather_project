@@ -11,7 +11,7 @@ def format_temperature(temp):
     Args:
         temp: A string representing a temperature.
     Returns:
-        A string contain the temperature and "degrees Celcius."
+        A string contain the temperature and "degrees Celsius."
     """
     return f"{temp}{DEGREE_SYMBOL}"
 
@@ -24,7 +24,11 @@ def convert_date(iso_string):
     Returns:
         A date formatted like: Weekday Date Month Year e.g. Tuesday 06 July 2021
     """
-    pass
+    date_object = datetime.fromisoformat(iso_string)
+    readable_date = date_object.strftime("%A %d %B %Y")
+
+
+    return readable_date
 
 
 def convert_f_to_c(temp_in_fahrenheit):
