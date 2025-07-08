@@ -51,7 +51,10 @@ def calculate_mean(weather_data):
     Returns:
         A float representing the mean value.
     """
-    pass
+    numeric_data = [float(value) for value in weather_data]
+    return sum(numeric_data) / len(numeric_data)
+
+    
 
 
 def load_data_from_csv(csv_file):
@@ -73,7 +76,21 @@ def find_min(weather_data):
     Returns:
         The minimum value and it's position in the list. (In case of multiple matches, return the index of the *last* example in the list.)
     """
-    pass
+    if not weather_data: #for empty list
+        return ()
+    
+    weather_data = [float(value) for value in weather_data]  # makes all values float
+    min_value = weather_data[0]
+    min_index = 0
+
+    for index, value in enumerate(weather_data[1:], start=1):
+        if value <= min_value:
+            min_value = value
+            min_index = index
+        
+    return (min_value, min_index)    
+
+    
 
 
 def find_max(weather_data):
@@ -84,7 +101,19 @@ def find_max(weather_data):
     Returns:
         The maximum value and it's position in the list. (In case of multiple matches, return the index of the *last* example in the list.)
     """
-    pass
+    if not weather_data:
+        return()
+    
+    weather_data = [float(value) for value in weather_data]  
+    max_value = weather_data[0]
+    max_index = 0
+
+    for index, value in enumerate(weather_data[1:], start=1):
+        if value >= max_value:
+            max_value = value
+            max_index = index
+
+    return (max_value, max_index)
 
 
 def generate_summary(weather_data):
