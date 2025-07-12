@@ -124,6 +124,7 @@ def generate_summary(weather_data):
     Returns:
         A string containing the summary information.
     """
+    
     pass
 
 
