@@ -1,0 +1,63 @@
+/* Main elements */
+.main-header {
+    font-size: 2.5rem;
+    color: #3366ff;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.sub-header {
+    font-size: 1.5rem;
+    color: #ff6633;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+/* Containers */
+.highlight-container {
+    background-color: #f0f2f6;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+.metric-container {
+    background-color: #e6f3ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Tab styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: #f0f2f6;
+    border-radius: 4px 4px 0 0;
+    padding: 10px 16px;
+    font-weight: 600;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #e6f3ff;
+}
+
+/* Custom footer */
+.footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+}
+
+/* Chart area */
+.chart-area {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
