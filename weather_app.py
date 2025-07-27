@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 #Page title and description
-st.title("Weather Data Analyzer 🌡️")
+st.title("Weather Data Analyzer")
 st.write("This app analyzes weather data from CSV files")
 
 #Selection header
