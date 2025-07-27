@@ -7,6 +7,8 @@ Creating a web interface built with StreamLit that allows you to:
 - View weather data analysis and summaries
 - Explore data in tabs
 - See temperature conversions between Fahrenheit and Celsius
+
+## Main Project 
 <!-- See https://stackoverflow.com/questions/60193771/a-badge-in-github-template-repository-that-will-refer-to-clones-build-status-n -->
 <!-- Use relative link so that this badge refers to the "cloned" repo and not this tempate repo -->
 ![](../../workflows/Tests/badge.svg)
