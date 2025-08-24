@@ -1,20 +1,11 @@
-# Plus Resources: Weather Project Template
-
-## This Branch:
-
-Creating a web interface built with StreamLit that allows you to:
-- Select from sample weather datasets
-- View weather data analysis and summaries
-- Explore data in tabs
-- See temperature conversions between Fahrenheit and Celsius
-
+# Python Weather Project
 ## Main Project 
 <!-- See https://stackoverflow.com/questions/60193771/a-badge-in-github-template-repository-that-will-refer-to-clones-build-status-n -->
 <!-- Use relative link so that this badge refers to the "cloned" repo and not this tempate repo -->
 ![](../../workflows/Tests/badge.svg)
 
-Starter code for the Plus Weather project.
-
+Created simple [Streamlit app](https://python-weather-project-emma.streamlit.app/) to visualise data
+  
 ## Checklist
 
 - [X] Implement the methods in `weather.py`.
