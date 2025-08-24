@@ -94,16 +94,12 @@ def display_weather_data(data):
     else:
         st.error("Data format is not as expected")
 
-#tabs for different sections
-if 'data' in locals():
-    tabs = st.tabs(["Summary", "Data"])
-    
-    with tabs[0]:
-        display_analysis(data)
-    
-    with tabs[1]:
-        display_weather_data(data)
+tabs = st.tabs(["Summary", "Data"])
 
-#footer??
-st.write("---")
-st.write("Created with Streamlit © 2025")
+with tabs[0]:
+    display_analysis(data)
+
+with tabs[1]:
+    display_weather_data(data)
+
+
